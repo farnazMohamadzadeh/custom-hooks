@@ -1,5 +1,5 @@
 import React from "react";
-import useLogger from "./hooks/useLogger";
+import useLogger from "../hooks/useLogger";
 
 export const Logger = () => {
   const [value, setValue] = useLogger("");

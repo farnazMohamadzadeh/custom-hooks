@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import useCounter from "./hooks/useCounter";
+import useCounter from "../hooks/useCounter";
 
 export const Counter = () => {
   const [count, addHandler, minusHandler] = useCounter(0);
