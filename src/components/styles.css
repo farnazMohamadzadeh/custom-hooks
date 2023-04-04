@@ -1,8 +1,9 @@
 .padding{
-    padding: 5px;
+    padding: 10px;
 }
 .active{
     border-bottom: 2px solid #7de985;
+   
 }
 .center{
     margin: 40px;

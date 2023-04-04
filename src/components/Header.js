@@ -11,11 +11,12 @@ export const Header = () => {
         <Container>
           <Navbar.Brand href="#">Custom Hooks</Navbar.Brand>
           <Nav className="me-auto">
-            <NavLink className={(link) => link.isActive ? "active padding" : ""} to="/logger" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Logger</NavLink>
+            <NavLink className={(link) => link.isActive ? "active" : ""} to="/logger" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Logger</NavLink>
             <NavLink to="/counter" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Counter</NavLink>
             <NavLink to="/fetch" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Fetch</NavLink>
             <NavLink to="/localstorage" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>LocalStorage</NavLink>
             <NavLink to="/input" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Input</NavLink>
+            <NavLink to="/loginQuestion" style={{marginLeft:"60px", color:"#fff" , textDecoration:"none"}}>Login Question</NavLink>
           </Nav>
         </Container>
       </Navbar>
